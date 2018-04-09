@@ -1,0 +1,126 @@
+@media screen and (max-width:480px)
+  {
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: none;
+    }
+    #tot{
+      background-color: #3E5F40;
+    }
+    #cap{
+      width: 100%;
+      height: 92px;
+      background-color: #C2D953;
+      text-align: center;
+    }
+    .dencap{
+      float: left;
+      background-color: #7FC24F;
+      width: 18%;
+      margin: 1px;
+      height: 30px;
+      border: solid #FFF 1px;
+    }
+    #cos{
+      background-color: #3E5F40;
+      padding: 5px;
+    }
+    .dencos{
+      background-color: #3F8C47;
+      margin: 10px;
+      height: 150px;
+      text-align: center;
+      border: solid black 5px;
+    }
+    #menu{
+      background-color: #3E5F40;
+      padding: 5px;
+    }
+    .denmen{
+      background-color: #7FC24F;
+      margin: 10px;
+      height: 70px;
+      text-align: center;
+      border: solid black 5px;
+    }
+    #peu{
+      background-color: rgb(17, 142, 52);
+      width: 100%;
+      text-align: center;
+    }
+    h1{
+      margin: 0;
+    }
+    h3{
+      margin: 0;
+      family:Helvetica;
+      color:rgb(9, 66, 8);
+    }
+    img{
+      height: 60%;
+    }
+    #tot h1{
+      position: absolute;
+      top: 5px;
+      left: 100px;
+      background-color: none;
+    }
+    #cap{
+      display: none;
+    }
+                body{
+                  margin: 0;
+                  padding: 0;
+                }
+                #nav{
+                  width: 100%;
+                  height: 50px;
+                  background-color: green;
+                }
+                .checkbox{
+                  width: 50px;
+                  height: 50px;
+                  position: absolute;
+                  top: 0;
+                  left: 10;
+                  z-index: 1;
+                  cursor: pointer;
+                  opacity: 0;
+                }
+                .checkbox:checked ~ #cap2{
+                  position: fixed;
+                  left: 0;
+                  transition: 0.2s;
+                }
+                #burguer{
+                  background-color: none;
+                  padding-left: 0px;
+                  position: absolute;
+                  top: -11px;
+                  left: 3px;
+                }
+                #burguer li{
+                  list-style-type: none;
+                  width: 30px;
+                  height: 5px;
+                  margin: 5px;
+                  background-color: black;
+                }
+                #cap2{
+                  background-color: pink;
+                  width: 130px;
+                  height: 125px;
+                  margin: 0px;
+                  padding: 0px;
+                  padding-left: 20px;
+                  position: absolute;
+                  top: 60px;
+                  left: -100%;
+                  transition: 0.4s;
+                }
+                #cap2 li{
+                  list-style-type: none;
+                  font-size: 24px;
+                }
+}

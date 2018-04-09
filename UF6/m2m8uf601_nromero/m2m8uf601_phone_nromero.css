@@ -1,0 +1,60 @@
+@media screen and (max-width:480px)
+  {
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: red;
+    }
+    #tot{
+      background-color: black;
+    }
+    #cap{
+      width: 100%;
+      height: 92px;
+      background-color: yellow;
+      text-align: center;
+    }
+    .dencap{
+      float: left;
+      background-color: cyan;
+      width: 18%;
+      margin: 1px;
+      height: 30px;
+      border: solid #FFF 1px;
+    }
+    #cos{
+      background-color: orange;
+      padding: 5px;
+    }
+    .dencos{
+      background-color: purple;
+      margin: 10px;
+      height: 100px;
+      text-align: center;
+      border: solid black 5px;
+    }
+    #menu{
+      background-color: magenta;
+      padding: 5px;
+    }
+    .denmen{
+      background-color: #FFF;
+      margin: 10px;
+      height: 70px;
+      text-align: center;
+      border: solid black 5px;
+    }
+    #peu{
+      background-color: green;
+      width: 100%;
+      text-align: center;
+    }
+    h1{
+      margin: 0;
+    }
+    h3{
+      margin: 0;
+      family:Helvetica;
+      color:rgb(209, 244, 224);
+    }
+}
