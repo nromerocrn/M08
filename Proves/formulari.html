@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body{
+      background-color: #26dce8;
+      margin: 0;
+      padding: 0;
+    }
+    #contenidor{
+      width: 350px;
+      background-color: #00a5db;
+    }
+    div{
+      background-color: #4b9bb5;
+      margin: 10px;
+      padding: 10px;
+    }
+    label {
+      display: block;
+      color: white;
+    }
+    #nom{
+      width: 300px;
+      height: 30px;
+      background-color: #00a5db;
+      color: white;
+      border: solid 2px white;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    #cognom1{
+      width: 300px;
+      height: 30px;
+      background-color: #00a5db;
+      color: white;
+      border: solid 2px white;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    #cognom2{
+      width: 300px;
+      height: 30px;
+      background-color: #00a5db;
+      color: white;
+      border: solid 2px white;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    #dni{
+      width: 300px;
+      height: 30px;
+      background-color: #00a5db;
+      color: white;
+      border: solid 2px white;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    #pass{
+      width: 300px;
+      height: 30px;
+      background-color: #00a5db;
+      color: white;
+      border: solid 2px white;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="contenidor>"
+              <div>
+                <label>Nom</label>
+                <input type="text" id="nom">
+              </div>
+              <div>
+                <label>1r Cognom</label>
+                <input type="text" id="cognom1">
+              </div>
+              <div>
+                <label>2n Cognom</label>
+                <input type="text" id="cognom2">
+              </div>
+              <div>
+                <label>Document d'identitat</label>
+                <input type="number" id="dni">
+              </div>
+              <div>
+                <label>Contrasenya</label>
+                <input type="password" id="pass">
+              </div>
+              <div>
+                <label>Data de naixement</label>
+                <input type="date" id="naixement">
+              </div>
+              <div>
+                <label>Email</label>
+                <input type="email" id="email">
+              </div>
+              <div>
+                <label>Telèfon</label>
+                <input type="tel" id="tel">
+              </div>
+              <div>
+                <label>Busca</label>
+                <input type="search" id="cerca">
+              </div>
+              <div>
+                <label>Població de procedència</label id="poblacio">
+                <input list="poblacio">
+                  <datalist id="poblacio">
+                    <option value="Cornellà">
+                    <option value="L'hospitalet">
+                    <option value="Sant Boi">
+                    <option value="Barcelona">
+                    <option value="Esplugues">
+                    <option value="Santa Coloma de Gramenet">
+                  </datalist>
+              </div>
+              <div>
+                <label>Estudis</label>
+                <input type="checkbox" name="estudis" value=""="ESO">ESO
+                <input type="checkbox" name="estudis" value=""="GM">Grau Mitjà
+                <input type="checkbox" name="estudis" value=""="GS">Grau Superior
+              </div>
+              <div>
+                <label>Sexe</label>
+                <input type="radio" name="sexe" value=""="noia">Noia
+                <input type="radio" name="sexe" value=""="noi">Noi
+              </div>
+              <div>
+                <label>Comentaris</label>
+                <textarea cols="24" rows="12" id="comentaris">
+                </textarea>
+              </div>
+              <div>
+                <label>Hora</label>
+                <input type="time" id="hora">
+              </div>
+              <div>
+                <label>Usuari d'instagram</label>
+                <input type="url" id="web">
+              </div>
+              <div>
+                <input type="submit">
+              </imput>
+              </div>
+              <div>
+                <input type="reset">
+              </imput>
+              </div>
+    </div>
+  </body>
+</html>
