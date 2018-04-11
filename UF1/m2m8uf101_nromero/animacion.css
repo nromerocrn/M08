@@ -1,0 +1,140 @@
+.ciel {
+  background-color: rgb(103, 242, 246);
+  margin: 0 auto;
+  width: 500px;
+  height: 900px;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+.gree {
+  background-color: rgb(78, 223, 93);
+  width: 500px;
+  height: 300px;
+  margin-top: 550px;
+  z-index: 2;
+
+}
+.carretera {
+  background-color: rgb(80, 80, 80);
+  width: 170px;
+  height: 300px;
+  margin: 0 auto;
+  transform: matrix(45deg);
+  z-index: 3;
+}
+.car {
+  background-color: rgb(53, 97, 230);
+  height: 110px;
+  width: 120px;
+  float: left;
+  margin: 450px 0px 0px 190px;
+  border-radius: 15px;
+  animation-name: carro;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  z-index: 4;
+}
+
+@keyframes carro {
+  0%{
+    background-color: red;
+  }
+  10%{
+    background-color: green;
+  }
+  20%{
+    background-color: pink;
+  }
+  30%{
+    background-color: purple;
+  }
+  40%{
+    background-color: orange;
+  }
+  50%{
+    background-color: yellow;
+  }
+  60%{
+    background-color: white;
+  }
+  70%{
+    background-color: tomato;
+  }
+  80%{
+    background-color: cyan;
+  }
+  90%{
+    background-color: gold;
+  }
+  100%{
+    background-color: fuchsia;
+    margin-top: 688px;
+  }
+}
+
+
+.ventana {
+  background-color: rgba(255, 255, 255, 0.56);
+  height: 50%;
+  width: 85%;
+  margin: 10px 0px 0px 10px;
+  float: left;
+  display: block;
+  border-radius: 5px;
+
+}
+ .ventana h2{
+   font-size: 17px;
+   background-color: rgba(246, 249, 96, 0.41);
+ }
+
+#luz {
+  background-color: rgb(255, 250, 135);
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 5px -10px 10px 20px;
+  border-radius: 20px;
+}
+
+#luz1 {
+  background-color: rgb(255, 250, 135);
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 5px 5px 10px 40px;
+  border-radius: 20px;
+
+}
+
+#rueda {
+  background-color: black;
+  height: 30px;
+  width: 20px;
+  float: left;
+  margin: 5px 0px 0px 15px;
+  border-radius: 5px
+}
+
+#rueda1 {
+  background-color: black;
+  height: 30px;
+  width: 20px;
+  float: left;
+  margin: 5px 0px 0px 50px;
+  border-radius: 5px
+}
+
+.sol{
+  background-color: yellow;
+  height: 250px;
+  width: 250px;
+  z-index: 0;
+  border-radius: 300px;
+  float: left;
+  position: relative;
+  left: 120px;
+  bottom: 800px;
+}
