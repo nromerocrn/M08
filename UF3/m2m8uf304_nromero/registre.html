@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Feedly-Registre</title>
+        <link href="m2m8uf304_nromero.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <style>
+    body{
+      background-color: rgb(250, 251, 197);
+    }
+    label {
+      display: block;
+      color: black;
+    }
+    button{
+      width: 60px;
+      align: center;
+    }
+    #con{
+      width: 150px;
+      font-size: 15px;
+      border-radius: 5px;
+      margin: 10px;
+      clear: left;
+      margin-bottom: -40px;
+    }
+    #mail{
+      width: 150px;
+      font-size: 15px;
+      border-radius: 5px;
+      margin: 10px;
+      border: 5px;
+    }
+    #caja{
+      border: none 2px black;
+      background-image: url(img/frame-iphone5.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 200px;
+      margin: 0 auto;
+      padding: 50px;
+      height: 500px;
+    }
+    #goog{
+      float: left;
+      height: 0px;
+      margin-top: -15px;
+      font-size: 10px;
+      margin-left: 20px;
+    }
+    #face{
+      float: left;
+      height: 0px;
+      border: none;
+      margin-top: -15px;
+      font-size: 10px;
+      margin-left: -20px;
+    }
+    #menu{
+      height: 40px;
+      background-color: #FFF;
+      overflow: visible;
+    }
+    #titol{
+      border: none;
+      margin: none;
+      margin-left: -65px;
+      height: 40px;
+      margin-top: 50px;
+      margin-bottom: -30px;
+    }
+    #contingut1{
+      margin-left: -65px;
+      height: 47px;
+      margin-right: -20px;
+      text-align: center;
+    }
+    #contingut2{
+      margin-left: -25px;
+      height: 47px;
+      margin-bottom: -10px;
+      margin-top: -55px;
+      margin-right: -20px;
+      text-align: center;
+    }
+    #loquesea{
+      background-color: rgb(24, 231, 101);
+      height: 40px;
+      width: 200px;
+      font-size: 15px;
+    }
+    #loqueseag{
+      background-color: rgb(231, 24, 24);
+      height: 40px;
+      width: 70px;
+      font-size: 15px;
+      margin-left: -20px;
+      margin-top: -20px;
+    }
+    #loqueseaf{
+      background-color: rgb(24, 76, 231);
+      height: 40px;
+      width: 90px;
+      font-size: 15px;
+      margin-left: -20px;
+      margin-right: -20px;
+      margin-top: -20px;
+    }
+    a{
+          text-decoration: none;
+          color: #563248;
+    }
+    a:link{
+      color: rgb(206, 252, 177);
+    }
+    a:visited{
+      color: rgb(206, 252, 177);
+    }
+    a:hover{
+      background-color: rgba(142, 143, 199, 0);
+    }
+  </style>
+  <body>
+    <div id="menu"
+    class="negre">
+      <img src="img/feedly-logo-small-black.png"/>
+      <ul>
+        <li>Si ja eres usuari</li>
+        <li><a href="inicia_sessio.html" target="_blank">Inicia sessió</a></li>
+      </ul>
+    </div>
+    <div id="caja">
+      <ul>
+        <div id="titol"><h2><p>Registra't a Feedly</p></h2></div>
+        <div id="contingut1"><p><h5>El contingut que necessites per accelerar les teves cerques, vendes, i promoció.</h5></p></div>
+      </ul>
+      <div id="goog">
+        <button id="loqueseag"><font color="white"><a href="https://www.google.cat/" target="_blank">Google</a></font></button>
+      </div>
+      <div id="face">
+        <button id="loqueseaf"><font color="white"><a href="https://ca-es.facebook.com/" target="_blank">Facebook</a></font></button>
+      </div>
+
+    <div id="con">
+      <label>Contrasenya</label>
+      <input type="password" id="pass" value="Contrasenya">
+    </div>
+    <div id="mail">
+      <label>Email</label>
+      <input type="email" id="email" value="">
+    </div>
+      <div id="contingut2"><p><h5>Per continuar, accepta els termes d'us i les pulitiques de privacitat.</h5></p></div>
+    <div>
+      <input type="checkbox">Accepto els termes i pulitiques de privacitat.
+    </div>
+    <button id="loquesea"><font color="white">Envia</font></button>
+  </div>
+  </body>
+</html>
